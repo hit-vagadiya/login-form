@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login form</title>
+    <style>
+        body {
+            background-image: url("https://miro.medium.com/max/1400/1*5XH40dQSsBVFtvx3MO5VwQ.png");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        .form {
+            height: 470px;
+            width: 600px;
+            background-color: rgba(0, 255, 255, 0);
+            margin: 80px auto;
+            border-radius: 1%;
+            box-shadow: 10px 10px 30px;
+            backdrop-filter: blur(10px);
+        }
+
+        h1 {
+            font-family: sans-serif;
+            text-transform: uppercase;
+            color: rgb(23, 20, 17);
+            margin-top: -20px;
+            margin-left: 198px;
+
+        }
+
+        input {
+            border-radius: 8px;
+            height: 30px;
+            width: 400px;
+            margin-left: 100px;
+            margin-top: 15px;
+            background-color: rgba(169, 169, 169, 0.212);
+            border: 1px solid black;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        #person-avatar {
+            background-image: url("assets/avatar1.png");
+            height: 150px;
+            width: 150px;
+            background-size: contain;
+            margin: 20px auto;
+
+        }
+        .psw{
+            margin-left: 10px;
+        }
+
+        button {
+            background-color: #f0f2fc;
+            color: rgb(11, 6, 6);
+            padding: 10px 30px;
+            margin-left: 250px;
+            border: none;
+            border-radius: 4px;
+            font-size: 15px;
+            border: 1px solid black;
+
+           
+        }
+        button:hover{
+            opacity: 0.9;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="glass">
+        <div class="form">
+            <form action="#">
+                <div id="person-avatar"></div>
+                <h1>login form</h1>
+                <input type="text" placeholder="username"><br>
+                <input type="email" name="email" placeholder="email"><br>
+                <input type="password" placeholder="password"><br><br>
+                <span class="psw">Forgot <a href="#">password?</a></span><br><br>
+                <button type="submit" class="loginbtn">submit</button>
+                
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
